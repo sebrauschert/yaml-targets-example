@@ -23,10 +23,12 @@ penguins-project/
 
 ```r
 # Install required packages if needed:
-install.packages(c("targets", "yaml", "palmerpenguins", "ggplot2", "readr"))
+install.packages(c("targets", "yaml", "ggplot2", "readr"))
 
 # Run the pipeline
 targets::tar_make()
+```
+
 The pipeline will read the dataset, clean it, and save a figure to results/penguin_plot.png.
 
 Notes
