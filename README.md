@@ -23,7 +23,8 @@ penguins-project/
 
 ```r
 # Install required packages if needed:
-install.packages(c("targets", "yaml", "ggplot2", "readr"))
+install.packages("renv")
+renv::restore()
 
 # Run the pipeline
 targets::tar_make()
