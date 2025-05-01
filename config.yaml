@@ -1,0 +1,6 @@
+input_data: "data/penguins.csv"
+output_dir: "results/"
+plot_filename: "penguin_plot.png"
+figure_width: 8
+figure_height: 5
+
